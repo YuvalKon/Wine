@@ -1,0 +1,68 @@
+body{
+	background-image: url("bg.jpg");
+	/*background-position:center;*/
+	/* This is what makes the background image rescale based
+	on the container's size */
+	background-size: cover; 
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+	/* Background image is fixed in the viewport so that it doesn't move when 
+	the content's height is greater than the image's height */
+	background-attachment: fixed;
+}
+
+.card {
+	margin: 0 auto;
+	float: none; 
+	margin-bottom: 10px; 
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.6) !important;
+}
+
+.icon{
+	color: white;
+	padding: 0px 10px;
+}
+
+.a4_contact_titles{
+	text-align: right;
+	padding-left: 8rem;
+}
+
+.a5_contact_value{
+	text-align: left;
+}
+
+.inline{
+	display: inline;
+}
+
+.bg_color{
+	background-color: rgba(0,0,0,0.8) !important;
+}
+
+.contact_text{
+	color: white;
+	size:2rem;
+}
+
+.text_about{
+	size:2rem;
+	color: white;
+	text-align: right;
+	padding-top: 15px;
+}
+
+.about_img_style{
+	padding-top:15px;
+	padding-left:15px;
+	padding-bottom: 15px;
+}
+
+.store_titles{
+	text-align: right;
+	color: white;
+}
